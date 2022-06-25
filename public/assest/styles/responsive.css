@@ -1,0 +1,71 @@
+@media screen and (max-width:768px) {
+    .header_wrapper .main_nav_wrapper .main_nav {
+        flex-direction: column;
+        width: 100%;
+    }
+.header_wrapper .main_nav_wrapper .main_nav .logo_main_parent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header_wrapper .main_nav_wrapper .main_nav .menu_icon img{
+    display: block;
+}
+.header_wrapper .main_nav .menu_nav_item {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 10px 0;
+}  
+.header_wrapper .main_nav .menu_nav_item a{
+    display: flex;
+}
+.hero_banner .banner_parent .banner_img img {
+    width: 100%;
+}
+}
+@media screen and(max-width:992px) {
+    .hero_banner_wrapper .hero_banner  >.row {
+        flex-direction: column;
+    }
+    .hero_banner_wrapper .hero_banner{
+        text-align: center;
+    }
+    .hero_banner .banner_parent .banner_info{
+        padding: 0;
+    }
+    .hero_banner .banner_parent .banner_info h3{
+font-size: 30px;
+text-align: center;
+    }
+    .hero_banner .banner_parent .banner_info p{
+        text-align: center;
+        margin-top: 10px;
+        text-align: justify;
+    }
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1092px) {
+    .count_parent{
+        flex-direction: column;
+    }
+    .shop_conut>div>div>h3 {
+      text-align: justify; 
+      padding-right: 10px;
+    }
+}
